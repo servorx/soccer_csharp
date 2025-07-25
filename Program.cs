@@ -4,6 +4,8 @@ internal class Program
 {
   private static void Main(string[] args)
   {
-    Console.WriteLine("Hello, World!");
+    MenuPrincipal menu = new MenuPrincipal();
+    menu.MostrarBienvenida();
+    menu.EjecutarMenuMain();
   }
 }

@@ -92,9 +92,9 @@ Cada sección cuenta con su respectivo submenú con acciones CRUD y específicas
 - 1.3 Registrar cuerpo medico
 - 1.4 Inscripcion torneo
 - 1.5 Gestionar jugadores por equipo
-- 1.5 notificacion de transferencia
-- 1.6 Salir del torneo
-- 1.7 Regresar main menu 
+- 1.6 notificacion de transferencia
+- 1.7 Salir del torneo
+- 1.8 Regresar main menu 
 
 **Jugadores:**
 - 2.1 Registrar jugador
