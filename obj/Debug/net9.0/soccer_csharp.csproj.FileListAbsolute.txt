@@ -1,0 +1,15 @@
+/home/angel/Desktop/formacion/I_love_code/C#/campus/soccer_csharp/bin/Debug/net9.0/soccer_csharp
+/home/angel/Desktop/formacion/I_love_code/C#/campus/soccer_csharp/bin/Debug/net9.0/soccer_csharp.deps.json
+/home/angel/Desktop/formacion/I_love_code/C#/campus/soccer_csharp/bin/Debug/net9.0/soccer_csharp.runtimeconfig.json
+/home/angel/Desktop/formacion/I_love_code/C#/campus/soccer_csharp/bin/Debug/net9.0/soccer_csharp.dll
+/home/angel/Desktop/formacion/I_love_code/C#/campus/soccer_csharp/bin/Debug/net9.0/soccer_csharp.pdb
+/home/angel/Desktop/formacion/I_love_code/C#/campus/soccer_csharp/obj/Debug/net9.0/soccer_csharp.GeneratedMSBuildEditorConfig.editorconfig
+/home/angel/Desktop/formacion/I_love_code/C#/campus/soccer_csharp/obj/Debug/net9.0/soccer_csharp.AssemblyInfoInputs.cache
+/home/angel/Desktop/formacion/I_love_code/C#/campus/soccer_csharp/obj/Debug/net9.0/soccer_csharp.AssemblyInfo.cs
+/home/angel/Desktop/formacion/I_love_code/C#/campus/soccer_csharp/obj/Debug/net9.0/soccer_csharp.csproj.CoreCompileInputs.cache
+/home/angel/Desktop/formacion/I_love_code/C#/campus/soccer_csharp/obj/Debug/net9.0/soccer_csharp.sourcelink.json
+/home/angel/Desktop/formacion/I_love_code/C#/campus/soccer_csharp/obj/Debug/net9.0/soccer_csharp.dll
+/home/angel/Desktop/formacion/I_love_code/C#/campus/soccer_csharp/obj/Debug/net9.0/refint/soccer_csharp.dll
+/home/angel/Desktop/formacion/I_love_code/C#/campus/soccer_csharp/obj/Debug/net9.0/soccer_csharp.pdb
+/home/angel/Desktop/formacion/I_love_code/C#/campus/soccer_csharp/obj/Debug/net9.0/soccer_csharp.genruntimeconfig.cache
+/home/angel/Desktop/formacion/I_love_code/C#/campus/soccer_csharp/obj/Debug/net9.0/ref/soccer_csharp.dll

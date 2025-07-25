@@ -5,7 +5,7 @@ using System.Threading.Tasks;
 
 namespace soccer_csharp;
 
-public class Menus
+public class TorneoService
 {
-  
+    
 }

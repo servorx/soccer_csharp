@@ -1,5 +1,7 @@
 # ⚽ Sistema de Gestión de Fútbol en Consola – C#
 
+Autor: Ángel David Pinzón Serrano
+
 ## 📘 Descripción
 
 Este proyecto es un sistema de consola desarrollado en C# que permite la **gestión integral de fútbol competitivo**, incluyendo la administración de torneos, equipos, jugadores, transferencias y estadísticas deportivas.
@@ -121,6 +123,9 @@ Cada sección cuenta con su respectivo submenú con acciones CRUD y específicas
 /soccer_csharp/
 │
 ├── Program.cs
+├── soccer_csharp.csproj
+├── soccer_csharp.sln
+├── README.md
 ├── ui/
 │ ├── MenuPrincipal.cs
 │ ├── MenuTorneos.cs
@@ -129,7 +134,7 @@ Cada sección cuenta con su respectivo submenú con acciones CRUD y específicas
 │ ├── MenuTransferencias.cs
 │ └── MenuEstadisticas.cs
 │
-├── Entidades/
+├── models/
 │ ├── Torneo.cs
 │ ├── Equipo.cs
 │ ├── Jugador.cs
@@ -139,15 +144,15 @@ Cada sección cuenta con su respectivo submenú con acciones CRUD y específicas
 │ ├── CuerpoTecnico.cs
 │ └── CuerpoMedico.cs
 │
-├── Servicios/
+├── services/
 │ ├── TorneoService.cs
 │ ├── EquipoService.cs
 │ ├── JugadorService.cs
 │ ├── TransferenciaService.cs
 │ └── EstadisticaService.cs
 │
-└── Utils/
-└── Validaciones.cs
+├── utils/
+│ └──Validaciones.cs
 ```
 
 
