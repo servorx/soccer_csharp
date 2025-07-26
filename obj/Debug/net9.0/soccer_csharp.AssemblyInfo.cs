@@ -13,7 +13,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("soccer_csharp")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+fbeb2af4974cea13ace19a7cdb6afd947c8e7f8f")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+eddbbac360977f2e9d503cd1376d3c2d74d5d912")]
 [assembly: System.Reflection.AssemblyProductAttribute("soccer_csharp")]
 [assembly: System.Reflection.AssemblyTitleAttribute("soccer_csharp")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

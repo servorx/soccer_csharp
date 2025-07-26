@@ -4,6 +4,7 @@ using System.Linq;
 using System.Runtime.CompilerServices;
 using System.Threading.Tasks;
 using System.Threading;
+using MySql.Data.MySqlClient;
 
 namespace soccer_csharp;
 
@@ -11,15 +12,39 @@ public class MenuPrincipal
 {
   public void MostrarBienvenida()
   {
-    Console.Clear();
-    Console.WriteLine("======================================");
-    Console.WriteLine("⚽ BIENVENIDO AL SISTEMA DE FÚTBOL ⚽");
-    Console.WriteLine("======================================\n");
-    Console.WriteLine("Este sistema permite gestionar torneos, equipos, jugadores,");
-    Console.WriteLine("transferencias y estadísticas de manera interactiva.");
-    Console.WriteLine("Desarrollado por Ángel Pinzón 🧠💻\n");
-    Console.WriteLine("Presiona una tecla para continuar...");
-    Console.ReadKey();
+      Console.Clear();
+
+      EscribirConPausa("======================================", 100);
+      EscribirConPausa("⚽ BIENVENIDO AL SISTEMA DE FÚTBOL ⚽", 100);
+      EscribirConPausa("======================================\n", 100);
+
+      Thread.Sleep(400);
+
+      EscribirConPausa("Este sistema permite gestionar:", 100);
+      EscribirConPausa("- Torneos",100);
+      EscribirConPausa("- Equipos",100);
+      EscribirConPausa("- Jugadores",100);
+      EscribirConPausa("- Transferencias",100);
+      EscribirConPausa("- Estadísticas",100);
+      Console.WriteLine(); 
+
+      Thread.Sleep(500);
+      EscribirConPausa("De forma totalmente interactiva ⚙️ 🧠\n", 100);
+
+      Thread.Sleep(500);
+      EscribirConPausa("Desarrollado por Ángel Pinzón 🧠💻\n", 100);
+
+      Thread.Sleep(700);
+      Console.ForegroundColor = ConsoleColor.Yellow;
+      EscribirConPausa("Presiona una tecla para continuar...", 100);
+      Console.ResetColor();
+      Console.ReadKey();
+  }
+  // Método auxiliar para escribir línea por línea con pausa.
+  public void EscribirConPausa(string texto, int milisegundos)
+  {
+      Console.WriteLine(texto);
+      Thread.Sleep(milisegundos);
   }
   public void MostrarMenuPrincipal()
   {
@@ -66,8 +91,16 @@ public class MenuPrincipal
         case "5":
           validation_program = false;
           Console.Clear();
-          System.Console.WriteLine("Gracias por usar nuestro programa!!");
-          Console.ReadLine();
+          Console.ForegroundColor = ConsoleColor.Cyan;
+          Console.WriteLine("==========================================");
+          Console.WriteLine("     🙌 ¡GRACIAS POR USAR EL SISTEMA! 🙌");
+          Console.WriteLine("==========================================\n");
+          Console.ResetColor();
+
+          Console.WriteLine("Esperamos que tu experiencia haya sido excelente. ⚽💻");
+          Console.WriteLine("\n¡Jholver coloqueme buena nota porfa 🙏!");
+          Console.WriteLine("\nPresiona cualquier tecla para salir...");
+          Console.ReadKey();
           break;
         default:
           Console.Clear();

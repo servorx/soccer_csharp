@@ -3,10 +3,8 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
 
-namespace soccer_csharp
+namespace soccer_csharp;
+public class Torneo
 {
-    public class Torneo
-    {
-        
-    }
+    
 }

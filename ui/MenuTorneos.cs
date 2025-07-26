@@ -28,12 +28,20 @@ public class MenuTorneos
       switch (opcion)
       {
         case "1":
+          TorneoService torneoService = new TorneoService();
+          TorneoService.CrearTorneo();
           break;
         case "2":
+          TorneoService equipoService1 = new TorneoService();
+          equipoService1.BuscarTorneo();
           break;
         case "3":
+          TorneoService equipoService2 = new TorneoService();
+          equipoService2.EliminarTorneo();
           break;
         case "4":
+          TorneoService equipoService3 = new TorneoService();
+          equipoService3.ActualizarTorneo();
           break;
         case "5":
           return;
