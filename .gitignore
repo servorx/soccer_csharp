@@ -1,2 +1,3 @@
-./obj
-./bin
+# Ignorar carpetas bin y obj
+bin/
+obj/
